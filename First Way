@@ -1,0 +1,11 @@
+#To-add-in-the-terminal
+
+pip install tqdm
+
+#To-add-into-the-code
+
+from tqdm import tqdm
+import time
+
+for i in tqdm(range(1000)):
+    pass
